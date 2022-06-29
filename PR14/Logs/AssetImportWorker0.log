@@ -1,0 +1,848 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.29f1 (2ff179115da0) revision 3142009'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 16330 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Ilya/Documents/Unity/PR14(1)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55665
+Successfully changed project path to: C:/Users/Ilya/Documents/Unity/PR14(1)
+C:/Users/Ilya/Documents/Unity/PR14(1)
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 34.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.29f1 (2ff179115da0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ilya/Documents/Unity/PR14(1)/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   30.0.15.1277
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001657 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 29.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.460 seconds
+Domain Reload Profiling:
+	ReloadAssembly (460ms)
+		BeginReloadAssembly (51ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (347ms)
+			LoadAssemblies (50ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (119ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (129ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (29ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (66ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002741 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.819 seconds
+Domain Reload Profiling:
+	ReloadAssembly (820ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (646ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (221ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (231ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1546 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.1 MB.
+System memory in use after: 71.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1978.
+Total: 2.423700 ms (FindLiveObjects: 0.124200 ms CreateObjectMapping: 0.033300 ms MarkObjects: 2.200800 ms  DeleteObjects: 0.064800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-4_comp_dir.exr
+  artifactKey: Guid(4f7b4805cf63ba34e91abc0814e55514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-4_comp_dir.exr using Guid(4f7b4805cf63ba34e91abc0814e55514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eafe0d27a40d870ce67dc12fb8c4d43') in 0.052493 seconds 
+  Import took 0.054566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/FibrumSDK/Fibrum/VR_GUI/Frame.png
+  artifactKey: Guid(695701b89758f1b4582b62ec2db8ab83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/VR_GUI/Frame.png using Guid(695701b89758f1b4582b62ec2db8ab83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7220c70a835a614c113682dc078cdd0') in 0.059616 seconds 
+  Import took 0.061566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/FibrumSDK/FibrumLoader/LeatherBM.jpg
+  artifactKey: Guid(4d9bceb1896387c43b02a119d160d592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/FibrumLoader/LeatherBM.jpg using Guid(4d9bceb1896387c43b02a119d160d592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69ba58ce74febe0cd0fc076574daf84') in 0.016890 seconds 
+  Import took 0.018804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/FibrumSDK/FibrumLoader/Smartphone/phoneInGame.png
+  artifactKey: Guid(8024312467a77c74f93f5ce535780f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/FibrumLoader/Smartphone/phoneInGame.png using Guid(8024312467a77c74f93f5ce535780f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb0ba477ab038f3ba77501cfca88d04') in 0.012865 seconds 
+  Import took 0.015300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0000.png
+  artifactKey: Guid(9415183fbbe1e0742ae1590a32e96b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0000.png using Guid(9415183fbbe1e0742ae1590a32e96b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3052a31fbebe4ec082f8dedef0236c25') in 0.011116 seconds 
+  Import took 0.013072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/FibrumSDK/Fibrum/Textures/iphone-6-02 (1).jpg
+  artifactKey: Guid(691312a8633364daa8bd76afba253e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/Textures/iphone-6-02 (1).jpg using Guid(691312a8633364daa8bd76afba253e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102ad1c652b2321b6e557f3e69c5ea56') in 0.011367 seconds 
+  Import took 0.013350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-1_comp_dir.exr
+  artifactKey: Guid(ba215c9020cf43046bbf199bd7a8916c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-1_comp_dir.exr using Guid(ba215c9020cf43046bbf199bd7a8916c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc25f251147a761009269e7ab4c26eb') in 0.010758 seconds 
+  Import took 0.012999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/FibrumSDK/Fibrum/VR_GUI/Cardboard.png
+  artifactKey: Guid(7b2b3c8638f81b54fafe9b8cde1e3cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/VR_GUI/Cardboard.png using Guid(7b2b3c8638f81b54fafe9b8cde1e3cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab11fb1cd42132ba9d95153a792c99b1') in 0.014323 seconds 
+  Import took 0.016479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-3_comp_dir.exr
+  artifactKey: Guid(2eaa5f70254f67c4b96efc4f5a3b8ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-3_comp_dir.exr using Guid(2eaa5f70254f67c4b96efc4f5a3b8ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf370a8c1700b4da278466f98fe4391') in 0.011277 seconds 
+  Import took 0.013331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0004.png
+  artifactKey: Guid(7cc2c5b0bf1bf024ebcec6eddb9f6c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0004.png using Guid(7cc2c5b0bf1bf024ebcec6eddb9f6c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520f1f59639000ae51f13cf26b371fe3') in 0.012404 seconds 
+  Import took 0.014446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/FibrumSDK/Fibrum/VR_GUI/CircleProgressBar.png
+  artifactKey: Guid(25a6fcff72265fa4c85d0ef72cf35c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/VR_GUI/CircleProgressBar.png using Guid(25a6fcff72265fa4c85d0ef72cf35c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73780f44ec5132f70916a19a8e1393db') in 0.014649 seconds 
+  Import took 0.016804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/FibrumSDK/FibrumLoader/LoaderAnim/LightmapFar-0.exr
+  artifactKey: Guid(432a5c2d5589dae4cbc798df776c8aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/FibrumLoader/LoaderAnim/LightmapFar-0.exr using Guid(432a5c2d5589dae4cbc798df776c8aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82df8d8dbb7c5541d31ee500418328a9') in 0.016386 seconds 
+  Import took 0.018726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/FibrumSDK/Fibrum/VR_GUI/ButtonPressed.png
+  artifactKey: Guid(a12a25f3106a0eb4dbf496a82506d91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/VR_GUI/ButtonPressed.png using Guid(a12a25f3106a0eb4dbf496a82506d91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe59b63f70c8818215ba99498e5f6c6') in 0.014046 seconds 
+  Import took 0.016064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-0_comp_dir.exr
+  artifactKey: Guid(91f8ea443ea4e0c4a925da14affc5be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-0_comp_dir.exr using Guid(91f8ea443ea4e0c4a925da14affc5be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2764bfa1229f8621fa6e8a416a406c') in 0.011595 seconds 
+  Import took 0.013945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-3_comp_light.exr
+  artifactKey: Guid(1c7ecf61988cd9a48b2192752ff4358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-3_comp_light.exr using Guid(1c7ecf61988cd9a48b2192752ff4358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ce865867f461338e5b1e301e861c46') in 0.011093 seconds 
+  Import took 0.013185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0006.png
+  artifactKey: Guid(2ff88338ab146a84d9d9e2b504c82b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0006.png using Guid(2ff88338ab146a84d9d9e2b504c82b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d36d01f76103a0e6b357760420203d') in 0.011488 seconds 
+  Import took 0.013541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/FibrumSDK/FibrumLoader/loader_trans.png
+  artifactKey: Guid(19576eb6abca050409b49eb4302c33b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/FibrumLoader/loader_trans.png using Guid(19576eb6abca050409b49eb4302c33b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7156e926dfa669c846c8f56325b56683') in 0.014538 seconds 
+  Import took 0.016731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-4_comp_light.exr
+  artifactKey: Guid(6495db26a08ceae48b0f83ebdf948ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-4_comp_light.exr using Guid(6495db26a08ceae48b0f83ebdf948ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0166bdb11a5f78b2aee126dd47ca50') in 0.012088 seconds 
+  Import took 0.014043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/FibrumImage.png
+  artifactKey: Guid(b30bfb1f3e2af2843a127e32509166de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/FibrumImage.png using Guid(b30bfb1f3e2af2843a127e32509166de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5adb51e810584ba0f477c495fc6cea30') in 0.014528 seconds 
+  Import took 0.016850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/FibrumSDK/FibrumLoader/Smartphone/gameScreen.png
+  artifactKey: Guid(6156cce205f0e464f8482e5164c88fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/FibrumLoader/Smartphone/gameScreen.png using Guid(6156cce205f0e464f8482e5164c88fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe956fa834859307b01fcfb4c7b8e7eb') in 0.012084 seconds 
+  Import took 0.014202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/FibrumSDK/Fibrum/VR_GUI/Fullscreen.png
+  artifactKey: Guid(d4586ca46cc39f2409e1ba0c1a83b223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/VR_GUI/Fullscreen.png using Guid(d4586ca46cc39f2409e1ba0c1a83b223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391885918aabb71f045752e4fab06e5e') in 0.011555 seconds 
+  Import took 0.013514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/FibrumSDK/Fibrum/loader.png
+  artifactKey: Guid(8e072b6fdad7110478d51690f84c8d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/loader.png using Guid(8e072b6fdad7110478d51690f84c8d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43955fa0b66fd5a7be439c248782b86d') in 0.025664 seconds 
+  Import took 0.027890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/FibrumSDK/Fibrum/Textures/iphone-6-02 (1) 1.jpg
+  artifactKey: Guid(0fabadb5388a741d98515f58143d5eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/Textures/iphone-6-02 (1) 1.jpg using Guid(0fabadb5388a741d98515f58143d5eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ada70dfe397db11edf1d93ff3d0c3c') in 0.012658 seconds 
+  Import took 0.015096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/FibrumSDK/FibrumLoader/Smartphone/phoneCalibr.png
+  artifactKey: Guid(03ba6d1e5e8c7694e9104dc2a002ed4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/FibrumLoader/Smartphone/phoneCalibr.png using Guid(03ba6d1e5e8c7694e9104dc2a002ed4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce92ddc4a76d78520fd678a28cc2d08') in 0.018661 seconds 
+  Import took 0.020899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/Fullscreen.png
+  artifactKey: Guid(132186ad445050c449c54f40be324397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/Fullscreen.png using Guid(132186ad445050c449c54f40be324397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bbd15248320ee0e16082dad57f93715') in 0.013330 seconds 
+  Import took 0.015635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/FibrumSDK/Fibrum/Joystick/CheckMark.png
+  artifactKey: Guid(4eea8270c8f981c4a822fcf9a08f0d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/Joystick/CheckMark.png using Guid(4eea8270c8f981c4a822fcf9a08f0d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb10ead21abcebb17f6e7e45ad79347') in 0.012428 seconds 
+  Import took 0.014597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0002.png
+  artifactKey: Guid(f5f124a767f07a7479d8f523634f48a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0002.png using Guid(f5f124a767f07a7479d8f523634f48a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bcfa4bcea9ce5710037d240ba50a657') in 0.010760 seconds 
+  Import took 0.012830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/FibrumSDK/Fibrum/VR_GUI/Button.png
+  artifactKey: Guid(7c1551f3321d57744880105959f17a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/VR_GUI/Button.png using Guid(7c1551f3321d57744880105959f17a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2558a531ba63efaa9e947fe310674102') in 0.010994 seconds 
+  Import took 0.013149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/FibrumSDK/Fibrum/VR_GUI/FibrumImage.png
+  artifactKey: Guid(99454bcc6db607444a06cd3d183ffa58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/VR_GUI/FibrumImage.png using Guid(99454bcc6db607444a06cd3d183ffa58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816ddf0bc688fe20a834e2f4a341ad67') in 0.011263 seconds 
+  Import took 0.013533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/FibrumSDK/Fibrum/FibrumStore.png
+  artifactKey: Guid(edb8e9ea0a474dd4195a10deb8ade5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/FibrumStore.png using Guid(edb8e9ea0a474dd4195a10deb8ade5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e0b7f1f8275463c884ebfaefaafd80') in 0.012494 seconds 
+  Import took 0.014456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-0_comp_light.exr
+  artifactKey: Guid(20a117fafc42cb546ba262ee2f986159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-0_comp_light.exr using Guid(20a117fafc42cb546ba262ee2f986159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74681730f95dcaf5d61272319bd1b985') in 0.012012 seconds 
+  Import took 0.013997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0003.png
+  artifactKey: Guid(90032378e2cd17340b8d4c640eb0c6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0003.png using Guid(90032378e2cd17340b8d4c640eb0c6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e78ed7cb9e91b6e1df6d7488b2cd59') in 0.012107 seconds 
+  Import took 0.014414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/FibrumSDK/FibrumLoader/Smartphone/phoneBox.png
+  artifactKey: Guid(eb32bb6a5b099634a8e4fa8aaebe56bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/FibrumLoader/Smartphone/phoneBox.png using Guid(eb32bb6a5b099634a8e4fa8aaebe56bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867cd012c5ec3dab81cf0c874f4c31a6') in 0.011649 seconds 
+  Import took 0.013692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0005.png
+  artifactKey: Guid(766d5084a5bf834408936ba52778664b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0005.png using Guid(766d5084a5bf834408936ba52778664b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da6f24385a1e2de01b886a75e0ca80c') in 0.013116 seconds 
+  Import took 0.015406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-1_comp_light.exr
+  artifactKey: Guid(9435c064607bd4c408ec9dd87c6a131e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-1_comp_light.exr using Guid(9435c064607bd4c408ec9dd87c6a131e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0ba77f652fdf33311b5132915f2082') in 0.013022 seconds 
+  Import took 0.015370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-2_comp_light.exr
+  artifactKey: Guid(94e7f4f694f7de440a67c0fb24ef974a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-2_comp_light.exr using Guid(94e7f4f694f7de440a67c0fb24ef974a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde3e9c96f6ba77f7c9d59d222aea452') in 0.012132 seconds 
+  Import took 0.014686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/FibrumSDK/Fibrum/VR_GUI/DefaultProgressBar3.png
+  artifactKey: Guid(1bed3915a5aba8d42957ee4464854b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/VR_GUI/DefaultProgressBar3.png using Guid(1bed3915a5aba8d42957ee4464854b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8167c7099990d1475e4182731bfce3e0') in 0.013080 seconds 
+  Import took 0.015194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/FibrumSDK/FibrumLoader/helmet.png
+  artifactKey: Guid(394b392e88ca5884e8758a008e127cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/FibrumLoader/helmet.png using Guid(394b392e88ca5884e8758a008e127cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ad8f487d975b17a2fc86fca5a2d37e') in 0.010979 seconds 
+  Import took 0.013202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/FibrumSDK/Scenes/demoMaterials/LightmapFar-0.exr
+  artifactKey: Guid(d02b18bf08d1030479e53cb37021c640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Scenes/demoMaterials/LightmapFar-0.exr using Guid(d02b18bf08d1030479e53cb37021c640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b8c828e8134d1df8be0b59a52e4684') in 0.017570 seconds 
+  Import took 0.019756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0001.png
+  artifactKey: Guid(3750ce5509afccf4fb5766028f1c7bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0001.png using Guid(3750ce5509afccf4fb5766028f1c7bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99075f68dcc25c3f18ab9e83366dc80b') in 0.011457 seconds 
+  Import took 0.013684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/FibrumSDK/Fibrum/Joystick/JoystickSetup.png
+  artifactKey: Guid(04faa02436aea9242bbd597fcc32e08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/Joystick/JoystickSetup.png using Guid(04faa02436aea9242bbd597fcc32e08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04ec728e43d3a5541af237230158b69') in 0.008254 seconds 
+  Import took 0.010231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-2_comp_dir.exr
+  artifactKey: Guid(5c7e4710f81f5484297e8238ab277394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-2_comp_dir.exr using Guid(5c7e4710f81f5484297e8238ab277394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7146efbbfc36112a1fc623bad4101b16') in 0.011742 seconds 
+  Import took 0.013842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/Frame.png
+  artifactKey: Guid(37a2f549b86cb0b45b3cb54212f6c240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/Frame.png using Guid(37a2f549b86cb0b45b3cb54212f6c240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c6fe48de8eb22843e14c97cffe7873') in 0.011985 seconds 
+  Import took 0.014140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/FibrumSDK/Fibrum/callibration.png
+  artifactKey: Guid(b7c452c48725486449466c799aec1580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/callibration.png using Guid(b7c452c48725486449466c799aec1580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2cc792a0edd734842f1d405d0d61d7e') in 0.015546 seconds 
+  Import took 0.017732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/FibrumSDK/FibrumLoader/Smartphone/GlassTrans.png
+  artifactKey: Guid(1779028f8368a10469b893fbba5b6cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/FibrumLoader/Smartphone/GlassTrans.png using Guid(1779028f8368a10469b893fbba5b6cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed58a2f709ccbe3046794d645fc9b935') in 0.010183 seconds 
+  Import took 0.012357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/FibrumSDK/Fibrum/VR_GUI/ButtonNormal.png
+  artifactKey: Guid(1a670559ab9687f43ac74ef56c689013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/VR_GUI/ButtonNormal.png using Guid(1a670559ab9687f43ac74ef56c689013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae02bda9c7cb24beee3d95e9cc9fcbe') in 0.013178 seconds 
+  Import took 0.015178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.409592 seconds.
+  path: Assets/FibrumSDK/Fibrum/UIpointer/aim.png
+  artifactKey: Guid(51b058272503770498fa0bf271f58c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/UIpointer/aim.png using Guid(51b058272503770498fa0bf271f58c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868fef20ab79fed1c3465705d80b7c2a') in 0.012828 seconds 
+  Import took 0.015064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/background.png
+  artifactKey: Guid(e014cd92f62e6480e8831007c9f3534f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/background.png using Guid(e014cd92f62e6480e8831007c9f3534f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a93b5443ce7e5cfb150964bfa930097') in 0.011939 seconds 
+  Import took 0.013893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/BackButton.png
+  artifactKey: Guid(6ade0939fe9e4f249a396ef2c6059e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/BackButton.png using Guid(6ade0939fe9e4f249a396ef2c6059e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369016a254d5bc30c3e134074012880c') in 0.013870 seconds 
+  Import took 0.015886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/FibrumSDK/FibrumLoader/Smartphone/BlackTex.png
+  artifactKey: Guid(795c0e23bb2131045a0f91d26abda678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/FibrumLoader/Smartphone/BlackTex.png using Guid(795c0e23bb2131045a0f91d26abda678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bdd114ad54530b1449d64fa88feed50') in 0.010920 seconds 
+  Import took 0.012853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/FibrumSDK/Fibrum/BlackFade.png
+  artifactKey: Guid(e6cc56ee1f581284fb45f56d44d0a4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/BlackFade.png using Guid(e6cc56ee1f581284fb45f56d44d0a4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e76fbd88f9f6805ced568def5e7df38') in 0.010112 seconds 
+  Import took 0.012288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/FibrumSDK/Fibrum/UIpointer/Arrow.png
+  artifactKey: Guid(db300b98d24fe674586b86ec7fd97c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/UIpointer/Arrow.png using Guid(db300b98d24fe674586b86ec7fd97c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b09435234e8dc538609cdb049cb03f') in 0.011022 seconds 
+  Import took 0.013234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/FibrumSDK/FibrumLoader/Smartphone/BlackTex2.png
+  artifactKey: Guid(c1d1ebaf6c5be844dbd3fcff116281e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/FibrumLoader/Smartphone/BlackTex2.png using Guid(c1d1ebaf6c5be844dbd3fcff116281e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd999dc918607fd335625c15eec3f7824') in 0.010501 seconds 
+  Import took 0.012431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/FibrumSDK/Fibrum/Joystick/Background.png
+  artifactKey: Guid(fc3405abb3959234cbd40ade336ba677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/Joystick/Background.png using Guid(fc3405abb3959234cbd40ade336ba677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165e4437d7565bde99cbfaf3355bb3fc') in 0.010542 seconds 
+  Import took 0.012787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.408376 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0007.png
+  artifactKey: Guid(df24ff32e3e91084f9876c15248d2f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0007.png using Guid(df24ff32e3e91084f9876c15248d2f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8380781b93643afe143f011619d2a6') in 0.017331 seconds 
+  Import took 0.019771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0010.png
+  artifactKey: Guid(8e9155334977f464e8aad12c04b76472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0010.png using Guid(8e9155334977f464e8aad12c04b76472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3fe73201e3406b4fd470d710c145d4f') in 0.022670 seconds 
+  Import took 0.024622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0009.png
+  artifactKey: Guid(864fe8f234c1d0b479c616e653a28d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0009.png using Guid(864fe8f234c1d0b479c616e653a28d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2c65795d10210796c45965c344d26a') in 0.012020 seconds 
+  Import took 0.014405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0015.png
+  artifactKey: Guid(d926c1d853b51dc4fb11e82432aee9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0015.png using Guid(d926c1d853b51dc4fb11e82432aee9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0213ab1b13b25f12de8328ced8c7e1ee') in 0.012236 seconds 
+  Import took 0.014440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0011.png
+  artifactKey: Guid(d80c856a6e7fd8a43bb156e77fadd56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0011.png using Guid(d80c856a6e7fd8a43bb156e77fadd56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9ab74919abbf33124aec2538f61c3a') in 0.011345 seconds 
+  Import took 0.013369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0008.png
+  artifactKey: Guid(e691d8c8462806c44a1827f239e52818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0008.png using Guid(e691d8c8462806c44a1827f239e52818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b92cc02d7b94427c98718724c16b093') in 0.011231 seconds 
+  Import took 0.013218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0012.png
+  artifactKey: Guid(d6fa66afb79da4d4a8a993f9f98097be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0012.png using Guid(d6fa66afb79da4d4a8a993f9f98097be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3923fbfe552e15ca366c8ea76a0779') in 0.010659 seconds 
+  Import took 0.012659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0014.png
+  artifactKey: Guid(1fe00248776f47a47927039e79d576e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0014.png using Guid(1fe00248776f47a47927039e79d576e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bbc32ef2cc5da9ed5ce60f50273588') in 0.010859 seconds 
+  Import took 0.013027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0013.png
+  artifactKey: Guid(f9e39b0734b26fb48ba67e504798a1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0013.png using Guid(f9e39b0734b26fb48ba67e504798a1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10cc8dd02b717b394fbb285f68d433c') in 0.011555 seconds 
+  Import took 0.013523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.189395 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0016.png
+  artifactKey: Guid(2d8db8dcbdab1c844b3dba2fb507e004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0016.png using Guid(2d8db8dcbdab1c844b3dba2fb507e004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100158b65c6a96c854dfa7541a9434c8') in 0.010238 seconds 
+  Import took 0.012457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0020.png
+  artifactKey: Guid(7dc1d69ab2657304483f1a5038417f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0020.png using Guid(7dc1d69ab2657304483f1a5038417f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecc7ee63eab6a716f959fab9af3eefa') in 0.010470 seconds 
+  Import took 0.012700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0018.png
+  artifactKey: Guid(b9502d0c703e4254094a810259e52279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0018.png using Guid(b9502d0c703e4254094a810259e52279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af03626315a37e9ad2bbdd5655196822') in 0.010494 seconds 
+  Import took 0.012896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/FibrumSDK/Fibrum/VR_GUI/PointerDefalut.png
+  artifactKey: Guid(5dcf0c4e83d4f6e44a692e691793d730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/VR_GUI/PointerDefalut.png using Guid(5dcf0c4e83d4f6e44a692e691793d730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df80c270271fac7eb8a55ea9dadebfd') in 0.009307 seconds 
+  Import took 0.011645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/FibrumSDK/Fibrum/VR_GUI/SamsungGearVR3.png
+  artifactKey: Guid(9b7c7d80cab40014bb514e356702f18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/VR_GUI/SamsungGearVR3.png using Guid(9b7c7d80cab40014bb514e356702f18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce80251ba3615ce161cf6a94e904c94') in 0.012059 seconds 
+  Import took 0.014294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0017.png
+  artifactKey: Guid(5fe7960d13ba3e94a886412ac97a815a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0017.png using Guid(5fe7960d13ba3e94a886412ac97a815a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba0047d579688a5f4a5b611e4a32dd4') in 0.011950 seconds 
+  Import took 0.014021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/FibrumSDK/Fibrum/VR_GUI/setupTex.png
+  artifactKey: Guid(c8511aee0d5bd95419c561c3b991ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/VR_GUI/setupTex.png using Guid(c8511aee0d5bd95419c561c3b991ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3ba4a064f1daf46bd00f9559afadaa') in 0.010457 seconds 
+  Import took 0.012822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/FibrumSDK/Scenes/demoMaterials/tex.jpg
+  artifactKey: Guid(7246426188ecbb045b2738f8cfde9d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Scenes/demoMaterials/tex.jpg using Guid(7246426188ecbb045b2738f8cfde9d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea47d2ca7fa2ed14468494a8db62013') in 0.011438 seconds 
+  Import took 0.013632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/setupTex.png
+  artifactKey: Guid(7bd03a033e23097479872787f04ea725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/setupTex.png using Guid(7bd03a033e23097479872787f04ea725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8adb8cd515f5859c0b65d688d9d5762c') in 0.010817 seconds 
+  Import took 0.013020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/setupLine.png
+  artifactKey: Guid(13765735e6003f04b8b51b43ee72f334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/setupLine.png using Guid(13765735e6003f04b8b51b43ee72f334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71df55a48cbd319c054be3e8085f4d4e') in 0.012072 seconds 
+  Import took 0.014352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/FibrumSDK/FibrumLoader/Smartphone/skybox.jpg
+  artifactKey: Guid(49f902f0654561943bc46fe7b9bbe470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/FibrumLoader/Smartphone/skybox.jpg using Guid(49f902f0654561943bc46fe7b9bbe470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3297d63ff5554405c52a320c47ff03d1') in 0.016355 seconds 
+  Import took 0.018591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/FibrumSDK/FibrumLoader/Smartphone/skybox2.png
+  artifactKey: Guid(1e2358a4ce5722545bb14fdbc36dc9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/FibrumLoader/Smartphone/skybox2.png using Guid(1e2358a4ce5722545bb14fdbc36dc9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16baf2703a6deeae26182d128b9bd67') in 0.010702 seconds 
+  Import took 0.012913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/FibrumSDK/Scenes/demoMaterials/texOld.jpg
+  artifactKey: Guid(d2def8209bf336f45924478af47f3fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Scenes/demoMaterials/texOld.jpg using Guid(d2def8209bf336f45924478af47f3fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ec8efa87c16e10e98a95433b9fc83e') in 0.010651 seconds 
+  Import took 0.013108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0019.png
+  artifactKey: Guid(04984611a101a3045b7d940152757aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0019.png using Guid(04984611a101a3045b7d940152757aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca86aa1f7da4af9b95067a95f60c794') in 0.011260 seconds 
+  Import took 0.013301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/FibrumSDK/Fibrum/Joystick/PressButton.png
+  artifactKey: Guid(bd94a36a888f40743977d21eb037d722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/Joystick/PressButton.png using Guid(bd94a36a888f40743977d21eb037d722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5e13fc6184ddf8459cc27b6f8325f0') in 0.009001 seconds 
+  Import took 0.011193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/FibrumSDK/Fibrum/VR_GUI/setupLine.png
+  artifactKey: Guid(ee9457fea0fcc5f44baba68abf3e2621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/VR_GUI/setupLine.png using Guid(ee9457fea0fcc5f44baba68abf3e2621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90b3436a457aa5efaa6033b484b8b32') in 0.009020 seconds 
+  Import took 0.011162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/FibrumSDK/Fibrum/Joystick/PushJoystick.png
+  artifactKey: Guid(62f7c5ef65b89ca418d547fab708243a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FibrumSDK/Fibrum/Joystick/PushJoystick.png using Guid(62f7c5ef65b89ca418d547fab708243a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e688249d8636d75c1fd1163e221acd55') in 0.009039 seconds 
+  Import took 0.011305 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002424 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.750 seconds
+Domain Reload Profiling:
+	ReloadAssembly (750ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (606ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1537 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2007.
+Total: 2.342800 ms (FindLiveObjects: 0.112800 ms CreateObjectMapping: 0.032300 ms MarkObjects: 2.179600 ms  DeleteObjects: 0.017400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 43.7 MB.
+System memory in use after: 43.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2007.
+Total: 2.872200 ms (FindLiveObjects: 0.139800 ms CreateObjectMapping: 0.031200 ms MarkObjects: 2.678600 ms  DeleteObjects: 0.021900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
